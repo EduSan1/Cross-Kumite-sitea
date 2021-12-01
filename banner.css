@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  min-width: 100vw;
+  height: 100vh;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("img/familia.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0008;
+  background-blend-mode: darken;
+}
+.banner h1 {
+  font-size: 4rem;
+  margin-left: 100px;
+  color: #fff;
+}
