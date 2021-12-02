@@ -40,13 +40,14 @@
 .dropdown-menu a:hover {
   cursor: pointer;
   color: #ff7701;
+  transition: all 1s;
 }
 .menu-burger-container {
   display: flex;
   width: 30px;
   height: 30px;
   box-shadow: #000;
-  position: absolute;
+  position: fixed;
   top: 2rem;
   right: 2rem;
   z-index: 2;
