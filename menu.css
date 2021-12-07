@@ -35,6 +35,7 @@
   align-items: center;
   justify-content: center;
   font-size: 2.5rem;
+  transition: all 1s;
 }
 .dropdown-menu a:hover {
   cursor: pointer;
@@ -51,6 +52,7 @@
   right: 2rem;
   z-index: 2;
   align-items: center;
+  cursor: pointer;
 }
 .menu-burger,
 .menu-burger::before,
