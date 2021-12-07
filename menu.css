@@ -1,5 +1,4 @@
 .menu {
-  /* display: none; */
   position: fixed;
   top: 0r;
   right: -20rem;
@@ -81,7 +80,6 @@
   transform: rotate(-45deg);
 }
 .menu-burger-container.active ~ .menu {
-  /* display: flex; */
   right: 0;
   z-index: 1;
 }
