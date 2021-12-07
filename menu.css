@@ -1,9 +1,8 @@
 .menu {
   /* display: none; */
-  opacity: 0;
   position: fixed;
-  top: 0rem;
-  right: 0rem;
+  top: 0r;
+  right: -20rem;
   height: 100vw;
   width: 20%;
   background-color: #fff;
@@ -81,6 +80,6 @@
 }
 .menu-burger-container.active ~ .menu {
   /* display: flex; */
-  opacity: 1;
+  right: 0;
   z-index: 1;
 }
