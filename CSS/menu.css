@@ -1,6 +1,8 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
+
 .menu {
   position: fixed;
-  top: 0r;
+  top: 0;
   right: -20rem;
   height: 100vw;
   width: 20%;
@@ -60,7 +62,7 @@
   width: 30px;
   height: 4px;
   position: absolute;
-  background-color: #000;
+  background-color: #c0c0c0;
   border-radius: 5px;
   transition: all 1s;
 }
@@ -72,6 +74,7 @@
 }
 .menu-burger-container.active .menu-burger {
   background-color: transparent;
+  border: none;
 }
 .menu-burger-container.active .menu-burger::before {
   transform: rotate(45deg);
@@ -82,4 +85,18 @@
 .menu-burger-container.active ~ .menu {
   right: 0;
   z-index: 1;
+}
+@media (max-width: 720px) {
+  .menu-burger-container.active ~ .menu {
+    right: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+  }
+  .menu > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 150px;
+  }
 }
