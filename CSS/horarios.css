@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
 }
-.horarios-nav {
+/* .horarios-nav {
 
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
 
-}
+} */
 
 .horarios-conteudo {
   display: flex;
