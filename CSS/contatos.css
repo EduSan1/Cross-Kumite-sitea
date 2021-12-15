@@ -1,5 +1,5 @@
 .contatos {
-  background-color: #ad5100;;
+  background-color: #ff7701;
   min-width: 100vw;
   height: 100vh;
   
@@ -21,7 +21,10 @@
 }
 
 .informacoes {
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;  */
   display: flex;
+  font-weight: 700;
   flex-direction: column;
   margin-left: 5%;
   height: 100%;
@@ -32,7 +35,7 @@
 .horarios p {
   
   padding-bottom: 10px;
-  font-size: clamp(8px, 4vw, 16px);
+  font-size: clamp(8px, 4vw, 24px);
 }
 
 .horarios :nth-child(1) {
@@ -45,12 +48,12 @@
 }
 
 .email p {
-  font-size: clamp(8px, 4vw, 16px);
+  font-size: clamp(8px, 4vw, 24px);
 }
 
 .email :nth-child(1) {
-  font-size: clamp(16px, 4vw, 32px);
   padding-bottom: 10px;
+  font-size: clamp(16px, 4vw, 32px);
 }
 
 .mapa {

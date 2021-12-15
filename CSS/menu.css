@@ -1,5 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
 
+html{ 
+  scroll-behavior: smooth;
+}
 .menu {
   position: fixed;
   top: 0;

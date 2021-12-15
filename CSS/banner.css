@@ -6,9 +6,11 @@
   list-style: none;
   text-decoration: none;
 }
+
 body {
   min-width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 .banner {
   display: flex;
