@@ -49,7 +49,7 @@
   width: 252px;
   height: 170px;
   padding-left: 36px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .SaibaMais {
   font-size: 1.5rem;
@@ -81,10 +81,10 @@
   height: 25%;
 }
 .titulo-karate{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .descricao{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .SaibaMais{
   display: none;
