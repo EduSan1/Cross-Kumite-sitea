@@ -17,7 +17,7 @@ footer{
     text-align: center;
     color: blanchedalmond;
 }
-.descricao{
+.descricao-footer{
     display: flex;
     justify-content: center;
     align-items: center;
